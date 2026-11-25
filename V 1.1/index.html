@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Educational information retrieval lab: positional indexing, TF-IDF and cosine ranking.">
+<title>EduSearch — Information Retrieval Lab</title>
+<link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="stylesheet" href="./styles.css">
+<script type="module" src="./app.mjs"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="layout">
+<aside class="sidebar">
+<a class="brand" href="#search"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 7h12a6 6 0 0 1 6 6v12H11a6 6 0 0 1-6-6z" stroke="currentColor" stroke-width="2"/><path d="M11 13h7M11 18h5m7-3 5 5m-5 0 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span>edusearch<span class="brand-sub">INFORMATION RETRIEVAL LAB</span></span></a>
+<nav aria-label="Main navigation">
+<p class="nav-label">WORKSPACE</p>
+<a href="#search" data-page="search"><span class="nav-icon">⌕</span> Search</a>
+<a href="#documents" data-page="documents"><span class="nav-icon">▤</span> Documents</a>
+<a href="#index" data-page="index"><span class="nav-icon">≡</span> Positional index</a>
+<a href="#statistics" data-page="statistics"><span class="nav-icon">▥</span> Term statistics</a>
+<a href="#vectors" data-page="vectors"><span class="nav-icon">▦</span> Vector space</a>
+<p class="nav-label">PROJECT</p>
+<a href="#validation" data-page="validation"><span class="nav-icon">✓</span> Validation</a>
+<a href="#method" data-page="method"><span class="nav-icon">↗</span> Methodology</a>
+</nav>
+<div class="sidebar-footer"><span class="status-dot"></span> Education collection <small>Fall 2026 · Domain 03</small></div>
+</aside>
+<div class="workspace"><header class="topbar"><span>IR Project <span class="muted">/</span> <strong id="breadcrumb">Search</strong></span><div class="top-actions"><button id="theme" class="icon-button" aria-label="Toggle color theme" title="Toggle color theme">◐</button><a class="outline-button" href="./docs/Project_Report.pdf">Project report ↗</a></div></header>
+<main id="main" tabindex="-1"><p id="loading" role="status">Loading collection…</p></main>
+<footer class="footer"><span>EduSearch · Education version</span><span>Exact phrase retrieval / cosine ranking</span></footer></div>
+</div>
+<noscript>This application needs JavaScript to search and display the collection.</noscript>
+</body></html>

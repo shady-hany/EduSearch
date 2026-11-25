@@ -1,0 +1,227 @@
+[
+  {
+    "query": "online learning",
+    "mode": "PHRASE",
+    "phrases": [
+      "online learning"
+    ],
+    "queryLength": 0.40957026396349017,
+    "queryWeights": [
+      {
+        "term": "online",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.3979400086720376,
+        "normalized": 0.9716037605393899
+      },
+      {
+        "term": "learning",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.09691001300805642,
+        "normalized": 0.23661388908032432
+      }
+    ],
+    "results": [
+      {
+        "id": "d1",
+        "score": 1.0,
+        "positions": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "id": "d5",
+        "score": 0.44760106877667394,
+        "positions": [
+          [
+            1,
+            8
+          ]
+        ]
+      },
+      {
+        "id": "d2",
+        "score": 0.4226417138518684,
+        "positions": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "id": "d9",
+        "score": 0.19385722365213467,
+        "positions": [
+          [
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "query": "student assessment",
+    "mode": "PHRASE",
+    "phrases": [
+      "student assessment"
+    ],
+    "queryLength": 0.40957026396349017,
+    "queryWeights": [
+      {
+        "term": "student",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.09691001300805642,
+        "normalized": 0.23661388908032432
+      },
+      {
+        "term": "assessment",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.3979400086720376,
+        "normalized": 0.9716037605393899
+      }
+    ],
+    "results": [
+      {
+        "id": "d3",
+        "score": 0.4226417138518684,
+        "positions": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "id": "d5",
+        "score": 0.30505859891717946,
+        "positions": [
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "id": "d8",
+        "score": 0.2730705825586039,
+        "positions": [
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "query": "online learning AND student assessment",
+    "mode": "AND",
+    "phrases": [
+      "online learning",
+      "student assessment"
+    ],
+    "queryLength": 0.5792198220418963,
+    "queryWeights": [
+      {
+        "term": "online",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.3979400086720376,
+        "normalized": 0.6870276077037532
+      },
+      {
+        "term": "learning",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.09691001300805642,
+        "normalized": 0.16731128549161894
+      },
+      {
+        "term": "student",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.09691001300805642,
+        "normalized": 0.16731128549161894
+      },
+      {
+        "term": "assessment",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.3979400086720376,
+        "normalized": 0.6870276077037532
+      }
+    ],
+    "results": [
+      {
+        "id": "d5",
+        "score": 0.5322107549519371,
+        "positions": [
+          [
+            1,
+            8
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "query": "online learning AND NOT student assessment",
+    "mode": "AND NOT",
+    "phrases": [
+      "online learning",
+      "student assessment"
+    ],
+    "queryLength": 0.40957026396349017,
+    "queryWeights": [
+      {
+        "term": "online",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.3979400086720376,
+        "normalized": 0.9716037605393899
+      },
+      {
+        "term": "learning",
+        "tf": 1,
+        "weightedTf": 1.0,
+        "tfidf": 0.09691001300805642,
+        "normalized": 0.23661388908032432
+      }
+    ],
+    "results": [
+      {
+        "id": "d1",
+        "score": 1.0,
+        "positions": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "id": "d2",
+        "score": 0.4226417138518684,
+        "positions": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "id": "d9",
+        "score": 0.19385722365213467,
+        "positions": [
+          [
+            1
+          ]
+        ]
+      }
+    ]
+  }
+]

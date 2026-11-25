@@ -1,0 +1,12 @@
+query,rank,document,similarity,starting_positions
+online learning,1,d1,1.0,1
+online learning,2,d5,0.44760106877667394,1 8
+online learning,3,d2,0.4226417138518684,1
+online learning,4,d9,0.19385722365213467,1
+student assessment,1,d3,0.4226417138518684,1
+student assessment,2,d5,0.30505859891717946,3
+student assessment,3,d8,0.2730705825586039,1 3
+online learning AND student assessment,1,d5,0.5322107549519371,1 8 | 3
+online learning AND NOT student assessment,1,d1,1.0,1
+online learning AND NOT student assessment,2,d2,0.4226417138518684,1
+online learning AND NOT student assessment,3,d9,0.19385722365213467,1
